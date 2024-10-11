@@ -1,0 +1,72 @@
+.container_services{
+    background-image: url("../../public/images/pngegg33.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_Section{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+}
+.first_Section span{
+    color: #AAAAAD;
+}
+.Main_title{
+    margin: auto;
+    text-align: center;
+    color: #242623;
+    font-size: 35px;
+}
+
+.under_title{
+    margin: auto;
+    align-items: center;
+    width: fit-content;
+    padding: 0px , 20px , 0px ,20px ;
+    
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 35px;
+}
+
+
+
+.Carld_container{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.cartd_title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Carld_container div {
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    height:330px ;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .cartd_BTN{
+    border-radius: 6px;
+    width: 70%;
+    height: 50px;
+    background-color: #242623;
+    color: white;
+  }
+
+  .cartd2{
+    background-color: #242623 !important;
+    color: white;
+  }
+  .cartd2 .cartd_BTN{
+    background-color: white;
+    color: #242623;
+  }
+  

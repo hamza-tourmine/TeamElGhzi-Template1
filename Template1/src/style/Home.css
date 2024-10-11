@@ -1,0 +1,122 @@
+/* Hero Section */
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    background-image: url('../../public/images/pngegg.png'), url('../../public/images/background.png');
+    background-size: cover, cover;
+    background-position: center, center;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    z-index: -10000 !important;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h1 .highlight {
+    color: #9DFF50;
+}
+
+.Empowering_text {
+    width: 43rem;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 6rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container_Empowering {
+    text-align: end;
+}
+
+.container_Brands {
+    text-align: start;
+    text-decoration: underline #9DFF50 solid;
+}
+
+.description {
+    font-size: 18px;
+    max-width: 1119px;
+    height: 263px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px 40px;
+    color: #070707;
+    border-radius: 65px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1000 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrow Image */
+.arrow {
+    position: absolute;
+    bottom: -15rem;
+    left: 24rem;
+    width: 250px;
+    height: 350px;
+    background-image: url('../../public/images/21.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(20deg);
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #9DFF50;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* .btn_img{
+    background-image: url('../../public/images//Rectangle21.png') ;
+} */

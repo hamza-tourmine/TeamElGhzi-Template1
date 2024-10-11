@@ -1,0 +1,29 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+.Header_items{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    position: relative;
+    width: 40%;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+}
+.Header_items  li {
+    border-bottom: 3px solid ;
+    cursor: pointer;
+}
+.active{
+    color: #A5A5A4;
+}
+.logoHeader{
+    text-shadow: 2px 2px 10px rgba(243, 243, 243, 0.925);
+}
